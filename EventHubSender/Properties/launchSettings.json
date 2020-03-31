@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "EventHubSender": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "CONNECTION_STRING": "Endpoint=sb://minsk-test.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=DO1FwzdaaHZktXDDRB/52yO2UTHh9xLjuuCVC3sbqDs=",
+        "APPINSIGHTS_INSTRUMENTATIONKEY": "a1304182-8cfc-404d-8c9b-ee39582384ec"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "environmentVariables": {
+        "CONNECTION_STRING": "Endpoint=sb://minsk-test.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=DO1FwzdaaHZktXDDRB/52yO2UTHh9xLjuuCVC3sbqDs=",
+        "APPINSIGHTS_INSTRUMENTATIONKEY": "a1304182-8cfc-404d-8c9b-ee39582384ec"
+      }
+    }
+  }
+}
